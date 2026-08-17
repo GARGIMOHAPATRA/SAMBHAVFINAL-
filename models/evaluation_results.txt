@@ -1,0 +1,459 @@
+SAANKET MODEL EVALUATION
+========================
+
+Overall Accuracy: 2.19%
+
+PER-CLASS CLASSIFICATION REPORT
+-------------------------------
+                precision    recall  f1-score   support
+
+             A       0.02      0.07      0.03        30
+             B       0.08      0.30      0.12        30
+             C       0.14      0.33      0.19        30
+             D       0.00      0.00      0.00        30
+             E       0.00      0.00      0.00        30
+             F       0.01      0.03      0.01        30
+             G       0.00      0.00      0.00        30
+             H       0.50      0.03      0.06        30
+             I       0.02      0.33      0.04        30
+             J       0.00      0.00      0.00        30
+             K       0.00      0.00      0.00        30
+             L       0.00      0.00      0.00        30
+             M       0.05      0.03      0.04        30
+             N       0.08      0.17      0.11        30
+             O       0.00      0.00      0.00        30
+             P       0.03      0.50      0.05        30
+             Q       0.00      0.00      0.00        30
+             R       0.00      0.00      0.00        30
+             S       0.08      0.13      0.10        30
+             T       0.01      0.03      0.01        30
+             U       0.01      0.33      0.03        30
+             V       0.02      0.03      0.03        30
+             W       0.03      0.33      0.05        30
+             X       0.01      0.23      0.02        40
+             Y       0.00      0.00      0.00        30
+             Z       0.05      0.03      0.04        30
+             a       0.01      0.03      0.01        30
+         again       0.01      0.15      0.02        33
+            am       0.00      0.00      0.00        30
+            an       0.00      0.00      0.00        30
+        answer       0.00      0.00      0.00        30
+         april       0.00      0.00      0.00        30
+        august       0.00      0.00      0.00        30
+          aunt       0.00      0.00      0.00        30
+           bad       0.00      0.00      0.00        31
+     beautiful       0.00      0.00      0.00        30
+          book       0.00      0.00      0.00        30
+           boy       0.00      0.00      0.00        31
+        bright       0.00      0.00      0.00        38
+       brother       0.00      0.00      0.00        30
+           bye       0.00      0.00      0.00        39
+        camera       0.00      0.00      0.00        31
+           car       0.00      0.00      0.00        39
+         chair       0.00      0.00      0.00        31
+         child       0.00      0.00      0.00        33
+          come       0.00      0.00      0.00        30
+       correct       0.00      0.00      0.00        33
+          dark       0.00      0.00      0.00        31
+      daughter       0.00      0.00      0.00        30
+           day       0.00      0.00      0.00        63
+          deaf       0.00      0.00      0.00        36
+      december       0.00      0.00      0.00        30
+     difficult       0.00      0.00      0.00        39
+            do       0.06      0.07      0.06        30
+         drink       0.00      0.00      0.00        30
+          easy       0.00      0.00      0.00        39
+           eat       0.00      0.00      0.00        30
+          face       0.00      0.00      0.00        30
+        family       0.00      0.00      0.00        30
+           fat       0.00      0.00      0.00        34
+        father       0.00      0.00      0.00        30
+      february       0.00      0.00      0.00        30
+          fine       0.00      0.00      0.00        30
+          food       0.00      0.00      0.00        32
+        friday       0.00      0.00      0.00        30
+        friend       0.00      0.00      0.00        30
+          girl       0.00      0.00      0.00        39
+          give       0.00      0.00      0.00        30
+            go       0.00      0.00      0.00        30
+          good       0.04      0.25      0.07        36
+good_afternoon       0.00      0.00      0.00        37
+  good_morning       0.00      0.00      0.00        34
+    good_night       0.00      0.00      0.00        34
+   grandfather       0.00      0.00      0.00        30
+   grandmother       0.00      0.00      0.00        29
+         happy       0.00      0.00      0.00        38
+            he       0.00      0.00      0.00        36
+       hearing       0.00      0.00      0.00        38
+         hello       0.00      0.00      0.00        38
+          help       0.00      0.00      0.00        30
+           her       0.00      0.00      0.00        30
+           his       0.00      0.00      0.00        30
+          home       0.00      0.00      0.00        30
+      hospital       0.00      0.00      0.00        30
+         house       0.00      0.00      0.00        36
+           how       0.00      0.00      0.00        30
+       husband       0.00      0.00      0.00        30
+             i       0.00      0.00      0.00        39
+        indian       0.00      0.00      0.00        33
+            is       0.00      0.00      0.00        30
+            it       0.00      0.00      0.00        30
+       january       0.00      0.00      0.00        30
+          july       0.00      0.00      0.00        30
+          june       0.00      0.00      0.00        30
+          know       0.00      0.00      0.00        30
+      language       0.00      0.00      0.00        30
+           man       0.00      0.00      0.00        42
+         march       0.00      0.00      0.00        30
+        market       0.00      0.00      0.00        30
+       married       0.00      0.00      0.00        30
+         marry       0.00      0.00      0.00        30
+           may       0.00      0.00      0.00        30
+        monday       0.00      0.00      0.00        30
+         money       0.08      0.13      0.10        30
+         month       0.00      0.00      0.00        31
+        mother       0.00      0.00      0.00        30
+            my       0.00      0.00      0.00        30
+       namaste       0.00      0.00      0.00        32
+          name       0.00      0.00      0.00        30
+            no       0.00      0.00      0.00        31
+      november       0.00      0.00      0.00        30
+       october       0.00      0.00      0.00        30
+           our       0.00      0.00      0.00        30
+         paper       0.00      0.00      0.00        30
+         place       0.00      0.00      0.00        30
+        please       0.00      0.00      0.00        34
+      practice       0.00      0.00      0.00        30
+      question       0.00      0.00      0.00        30
+      remember       0.00      0.00      0.00        38
+           sad       0.00      0.00      0.00        41
+      saturday       0.00      0.00      0.00        30
+        school       0.00      0.00      0.00        30
+     september       0.00      0.00      0.00        30
+           she       0.00      0.00      0.00        30
+         short       0.00      0.00      0.00        31
+          sign       0.00      0.00      0.00        33
+        sister       0.00      0.00      0.00        30
+           son       0.00      0.00      0.00        30
+         sorry       0.00      0.00      0.00        38
+        strong       0.00      0.00      0.00        38
+        sunday       0.00      0.00      0.00        30
+         table       0.00      0.00      0.00        69
+          take       0.00      0.00      0.00        30
+          tall       0.00      0.00      0.00        38
+       teacher       0.00      0.00      0.00        32
+     thank_you       0.00      0.00      0.00        34
+         their       0.00      0.00      0.00        30
+          they       0.00      0.00      0.00        30
+          thin       0.00      0.00      0.00        31
+          this       0.00      0.00      0.00        30
+      thursday       0.00      0.00      0.00        30
+          time       0.00      0.00      0.00        30
+            to       0.00      0.00      0.00        30
+          tree       0.10      0.19      0.13        36
+       tuesday       0.00      0.00      0.00        30
+          ugly       0.00      0.00      0.00        41
+         uncle       0.00      0.00      0.00        30
+    understand       0.00      0.00      0.00        38
+          want       0.00      0.00      0.00        30
+         water       0.00      0.00      0.00        30
+            we       0.00      0.00      0.00        30
+          weak       0.00      0.00      0.00        35
+     wednesday       0.00      0.00      0.00        30
+          week       0.00      0.00      0.00        30
+       welcome       0.00      0.00      0.00        30
+          what       0.00      0.00      0.00        30
+          when       0.00      0.00      0.00        30
+         where       0.00      0.00      0.00        31
+         which       0.00      0.00      0.00        30
+           who       0.00      0.00      0.00        30
+           why       0.00      0.00      0.00        27
+          wife       0.00      0.00      0.00        30
+         women       0.00      0.00      0.00        30
+          work       0.00      0.00      0.00        15
+         wrong       0.00      0.00      0.00        33
+          year       0.00      0.00      0.00        30
+           yes       0.00      0.00      0.00        31
+           you       0.00      0.00      0.00        38
+          your       0.00      0.00      0.00        30
+
+      accuracy                           0.02      5398
+     macro avg       0.01      0.02      0.01      5398
+  weighted avg       0.01      0.02      0.01      5398
+
+
+PER-CLASS ACCURACY
+------------------
+D: 0.00% (30 samples)
+E: 0.00% (30 samples)
+G: 0.00% (30 samples)
+J: 0.00% (30 samples)
+K: 0.00% (30 samples)
+L: 0.00% (30 samples)
+O: 0.00% (30 samples)
+Q: 0.00% (30 samples)
+R: 0.00% (30 samples)
+Y: 0.00% (30 samples)
+am: 0.00% (30 samples)
+an: 0.00% (30 samples)
+answer: 0.00% (30 samples)
+april: 0.00% (30 samples)
+august: 0.00% (30 samples)
+aunt: 0.00% (30 samples)
+bad: 0.00% (31 samples)
+beautiful: 0.00% (30 samples)
+book: 0.00% (30 samples)
+boy: 0.00% (31 samples)
+bright: 0.00% (38 samples)
+brother: 0.00% (30 samples)
+bye: 0.00% (39 samples)
+camera: 0.00% (31 samples)
+car: 0.00% (39 samples)
+chair: 0.00% (31 samples)
+child: 0.00% (33 samples)
+come: 0.00% (30 samples)
+correct: 0.00% (33 samples)
+dark: 0.00% (31 samples)
+daughter: 0.00% (30 samples)
+day: 0.00% (63 samples)
+deaf: 0.00% (36 samples)
+december: 0.00% (30 samples)
+difficult: 0.00% (39 samples)
+drink: 0.00% (30 samples)
+easy: 0.00% (39 samples)
+eat: 0.00% (30 samples)
+face: 0.00% (30 samples)
+family: 0.00% (30 samples)
+fat: 0.00% (34 samples)
+father: 0.00% (30 samples)
+february: 0.00% (30 samples)
+fine: 0.00% (30 samples)
+food: 0.00% (32 samples)
+friday: 0.00% (30 samples)
+friend: 0.00% (30 samples)
+girl: 0.00% (39 samples)
+give: 0.00% (30 samples)
+go: 0.00% (30 samples)
+good_afternoon: 0.00% (37 samples)
+good_morning: 0.00% (34 samples)
+good_night: 0.00% (34 samples)
+grandfather: 0.00% (30 samples)
+grandmother: 0.00% (29 samples)
+happy: 0.00% (38 samples)
+he: 0.00% (36 samples)
+hearing: 0.00% (38 samples)
+hello: 0.00% (38 samples)
+help: 0.00% (30 samples)
+her: 0.00% (30 samples)
+his: 0.00% (30 samples)
+home: 0.00% (30 samples)
+hospital: 0.00% (30 samples)
+house: 0.00% (36 samples)
+how: 0.00% (30 samples)
+husband: 0.00% (30 samples)
+i: 0.00% (39 samples)
+indian: 0.00% (33 samples)
+is: 0.00% (30 samples)
+it: 0.00% (30 samples)
+january: 0.00% (30 samples)
+july: 0.00% (30 samples)
+june: 0.00% (30 samples)
+know: 0.00% (30 samples)
+language: 0.00% (30 samples)
+man: 0.00% (42 samples)
+march: 0.00% (30 samples)
+market: 0.00% (30 samples)
+married: 0.00% (30 samples)
+marry: 0.00% (30 samples)
+may: 0.00% (30 samples)
+monday: 0.00% (30 samples)
+month: 0.00% (31 samples)
+mother: 0.00% (30 samples)
+my: 0.00% (30 samples)
+namaste: 0.00% (32 samples)
+name: 0.00% (30 samples)
+no: 0.00% (31 samples)
+november: 0.00% (30 samples)
+october: 0.00% (30 samples)
+our: 0.00% (30 samples)
+paper: 0.00% (30 samples)
+place: 0.00% (30 samples)
+please: 0.00% (34 samples)
+practice: 0.00% (30 samples)
+question: 0.00% (30 samples)
+remember: 0.00% (38 samples)
+sad: 0.00% (41 samples)
+saturday: 0.00% (30 samples)
+school: 0.00% (30 samples)
+september: 0.00% (30 samples)
+she: 0.00% (30 samples)
+short: 0.00% (31 samples)
+sign: 0.00% (33 samples)
+sister: 0.00% (30 samples)
+son: 0.00% (30 samples)
+sorry: 0.00% (38 samples)
+strong: 0.00% (38 samples)
+sunday: 0.00% (30 samples)
+table: 0.00% (69 samples)
+take: 0.00% (30 samples)
+tall: 0.00% (38 samples)
+teacher: 0.00% (32 samples)
+thank_you: 0.00% (34 samples)
+their: 0.00% (30 samples)
+they: 0.00% (30 samples)
+thin: 0.00% (31 samples)
+this: 0.00% (30 samples)
+thursday: 0.00% (30 samples)
+time: 0.00% (30 samples)
+to: 0.00% (30 samples)
+tuesday: 0.00% (30 samples)
+ugly: 0.00% (41 samples)
+uncle: 0.00% (30 samples)
+understand: 0.00% (38 samples)
+want: 0.00% (30 samples)
+water: 0.00% (30 samples)
+we: 0.00% (30 samples)
+weak: 0.00% (35 samples)
+wednesday: 0.00% (30 samples)
+week: 0.00% (30 samples)
+welcome: 0.00% (30 samples)
+what: 0.00% (30 samples)
+when: 0.00% (30 samples)
+where: 0.00% (31 samples)
+which: 0.00% (30 samples)
+who: 0.00% (30 samples)
+why: 0.00% (27 samples)
+wife: 0.00% (30 samples)
+women: 0.00% (30 samples)
+work: 0.00% (15 samples)
+wrong: 0.00% (33 samples)
+year: 0.00% (30 samples)
+yes: 0.00% (31 samples)
+you: 0.00% (38 samples)
+your: 0.00% (30 samples)
+F: 3.33% (30 samples)
+H: 3.33% (30 samples)
+M: 3.33% (30 samples)
+T: 3.33% (30 samples)
+V: 3.33% (30 samples)
+Z: 3.33% (30 samples)
+a: 3.33% (30 samples)
+A: 6.67% (30 samples)
+do: 6.67% (30 samples)
+S: 13.33% (30 samples)
+money: 13.33% (30 samples)
+again: 15.15% (33 samples)
+N: 16.67% (30 samples)
+tree: 19.44% (36 samples)
+X: 22.50% (40 samples)
+good: 25.00% (36 samples)
+B: 30.00% (30 samples)
+C: 33.33% (30 samples)
+I: 33.33% (30 samples)
+U: 33.33% (30 samples)
+W: 33.33% (30 samples)
+P: 50.00% (30 samples)
+
+
+MOST COMMON CONFUSIONS
+-----------------------
+yes -> X (31)
+september -> P (30)
+no -> X (30)
+deaf -> U (30)
+when -> I (28)
+february -> P (28)
+camera -> P (28)
+sorry -> good (27)
+this -> again (23)
+july -> P (23)
+where -> I (22)
+may -> P (22)
+week -> U (21)
+table -> U (21)
+she -> good (21)
+language -> P (21)
+car -> X (21)
+you -> again (20)
+teacher -> P (20)
+table -> I (20)
+man -> U (20)
+thin -> U (19)
+august -> I (19)
+sad -> X (18)
+easy -> F (18)
+correct -> again (18)
+aunt -> X (18)
+april -> I (18)
+understand -> man (17)
+sign -> P (17)
+hospital -> X (17)
+difficult -> U (17)
+come -> X (17)
+boy -> F (17)
+we -> W (16)
+tall -> X (16)
+october -> F (16)
+name -> again (16)
+january -> U (16)
+dark -> B (16)
+strong -> I (15)
+our -> again (15)
+mother -> U (15)
+know -> U (15)
+how -> I (15)
+he -> good (15)
+grandfather -> X (15)
+friday -> P (15)
+family -> X (15)
+bye -> U (15)
+D -> P (15)
+wrong -> X (14)
+women -> good (14)
+wife -> X (14)
+june -> X (14)
+good_night -> good (14)
+good_morning -> a (14)
+go -> again (14)
+friend -> X (14)
+december -> U (14)
+beautiful -> U (14)
+again -> good (14)
+V -> again (14)
+U -> again (14)
+weak -> good (13)
+ugly -> X (13)
+place -> P (13)
+her -> U (13)
+grandmother -> X (13)
+chair -> X (13)
+bright -> P (13)
+K -> P (13)
+wednesday -> I (12)
+uncle -> X (12)
+their -> U (12)
+saturday -> P (12)
+market -> U (12)
+march -> U (12)
+is -> W (12)
+i -> X (12)
+house -> N (12)
+her -> again (12)
+hearing -> U (12)
+he -> U (12)
+good_morning -> good (12)
+car -> U (12)
+answer -> X (12)
+who -> F (11)
+water -> X (11)
+want -> I (11)
+ugly -> U (11)
+tuesday -> U (11)
+tree -> X (11)
+tree -> T (11)
+time -> A (11)
+thank_you -> money (11)
+sister -> X (11)
+remember -> W (11)
+remember -> U (11)
+paper -> a (11)
