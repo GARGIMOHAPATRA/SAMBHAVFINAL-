@@ -3,10 +3,6 @@
 <h3 align="center">Bridging Communication Through AI and Indian Sign Language</h3>
 
 <p align="center">
-  <img src="assets_jpg/sambhav-brand-strip.jpg" alt="Sambhav, HacKNomads, and Smart India Hackathon 2026" width="920" />
-</p>
-
-<p align="center">
   <a href="https://www.sih.gov.in/">Smart India Hackathon 2026</a> ·
   <strong>Team HacKNomads</strong> ·
   <strong>Medtech / Healthtech / Biotech</strong>
@@ -48,10 +44,6 @@ For deaf and hard-of-hearing individuals who communicate through Indian Sign Lan
 
 The real challenge is not the ability to communicate. It is the lack of a common, accessible, and spontaneous medium between ISL users and hearing users.
 
-<p align="center">
-  <img src="assets_jpg/sambhav-problem-solution.jpg" alt="Sambhav problem statement and proposed solution" width="880" />
-</p>
-
 ## Our Solution
 
 Sambhav combines AI, natural-language processing, computer vision, a 3D avatar, and real-time communication services in one accessibility platform.
@@ -73,10 +65,6 @@ The platform is designed to work with standard webcams, microphones, and commodi
 | **Interpreter-independent interaction** | Helps users communicate spontaneously without requiring an interpreter for every exchange. |
 | **Web and mobile orientation** | Designed around cross-platform access through common cameras, microphones, and network services. |
 | **Beyond translation** | Extends into news reading, learning, culture, history, AI assistance, and accessible information. |
-
-<p align="center">
-  <img src="assets_jpg/sambhav-innovation-features.jpg" alt="Sambhav innovation and core feature visual" width="950" />
-</p>
 
 ## Core Features
 
@@ -100,7 +88,7 @@ The platform is designed to work with standard webcams, microphones, and commodi
 ## System Architecture
 
 <p align="center">
-  <img src="assets_jpg/sambhav-architecture.jpg" alt="Clean cropped Sambhav system architecture" width="940" />
+  <img src="assets_jpg/sambhav-architecture.jpg" alt="Sambhav system architecture" width="940" />
 </p>
 
 Sambhav is organized into a frontend layer, backend services, data services, AI/ML services, real-time communication, and external speech/avatar/cloud integrations.
@@ -333,10 +321,6 @@ The same foundation can support learning courses, cultural content, historical s
 - **Culture and history:** avatar-led storytelling, cultural music, and accessible heritage content.
 - **Workplaces:** interview access, professional communication, and employment inclusion.
 
-<p align="center">
-  <img src="assets_jpg/use-cases-business.jpg" alt="Sambhav use cases and business potential" width="900" />
-</p>
-
 ### Future Scope
 
 - Expand the ISL vocabulary and support additional alphabets, signs, and regional variations.
@@ -362,14 +346,6 @@ Sambhav aims to transform communication barriers into real-time connections and 
 | **Public services** | Improves access to government offices, banks, transport, and essential services. |
 | **Cultural participation** | Makes news, media, cultural events, and online communities more accessible. |
 | **Future readiness** | Provides a modular base for more vocabulary, domains, languages, and services. |
-
-<p align="center">
-  <img src="assets_jpg/impact-benefits.jpg" alt="Sambhav impact and benefits" width="850" />
-</p>
-
-<p align="center">
-  <img src="assets_jpg/vision-flow.jpg" alt="Sambhav communication barrier to inclusion vision flow" width="850" />
-</p>
 
 ## Getting Started
 
