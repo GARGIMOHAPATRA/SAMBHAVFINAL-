@@ -1,0 +1,6 @@
+SpeechRecognition
+pyaudio
+nltk
+opencv-python
+flask
+flask-cors
