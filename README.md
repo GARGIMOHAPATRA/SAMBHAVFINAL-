@@ -429,14 +429,12 @@ cd ../backend-java
 
 | Member | Profile |
 |---|---|
-| Team member 1 | Add name and LinkedIn/GitHub link |
-| Team member 2 | Add name and LinkedIn/GitHub link |
-| Team member 3 | Add name and LinkedIn/GitHub link |
-| Team member 4 | Add name and LinkedIn/GitHub link |
-| Team member 5 | Add name and LinkedIn/GitHub link |
-| Team member 6 | Add name and LinkedIn/GitHub link |
-
-The names and profile links were not included in the supplied project description or PDF, so these six rows are intentionally left for the team to complete.
+| Team member 1 | SUBHAM NAYAK |
+| Team member 2 | MOHAPATRA S.H GARGI |
+| Team member 3 | B.VINEET PATRO |
+| Team member 4 | SIDHARTH KUMAR |
+| Team member 5 | SHREYA KASHYAP |
+| Team member 6 | AVISHEK RAUL |
 
 ## Research and References
 
