@@ -363,8 +363,7 @@ The supplied project materials describe the architecture and technology stack bu
 ### Suggested Local Setup
 
 ```bash
-# Replace <YOUR_REPOSITORY_URL> with the final repository URL.
-git clone <YOUR_REPOSITORY_URL>
+git clone (https://github.com/GARGIMOHAPATRA/SAANKETFINAL-)
 cd sambhav
 
 # Frontend
