@@ -1,0 +1,214 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* =========================================================================
+   SAMBHAV - GLOBAL DESIGN TOKENS & DYNAMIC THEME SYSTEM
+   ========================================================================= */
+
+@layer base {
+  /* Default Light Theme */
+  :root {
+    --color-bg: #f7fafc;
+    --color-text: #181c1e;
+    --color-primary: #fe9832;
+    --color-primary-hover: #e8872b;
+    --color-border: #e0e3e5;
+    --color-focus-ring: #fe9832;
+    --color-card-bg: #ffffff;
+    --color-card-surface: #f1f4f6;
+    --color-sidebar-bg: #f1f4f6;
+    --color-accent: #8f4e00;
+  }
+
+  /* Deep Sleek Dark Theme (Reference from Translate & Console Design) */
+  .dark {
+    --color-bg: #030813;
+    --color-text: #f7fafc;
+    --color-primary: #fe9832;
+    --color-primary-hover: #ffb77a;
+    --color-border: #2d3133;
+    --color-focus-ring: #fe9832;
+    --color-card-bg: #1a202c;
+    --color-card-surface: #181c1e;
+    --color-sidebar-bg: #0d121d;
+    --color-accent: #ffb77a;
+  }
+
+  /* Font Scaling Options */
+  html {
+    font-size: 16px;
+    transition: font-size 0.15s ease-out;
+  }
+  
+  html.text-small {
+    font-size: 14px;
+  }
+  
+  html.text-large {
+    font-size: 18px;
+  }
+  
+  html.text-xlarge {
+    font-size: 20px;
+  }
+
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    min-height: 100vh;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+
+  /* Accessible visible focus states */
+  *:focus-visible {
+    outline: 3px solid #fe9832 !important;
+    outline-offset: 2px !important;
+    border-radius: 4px;
+  }
+
+  /* Respect reduced motion system preference */
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  vertical-align: middle;
+}
+.material-symbols-outlined.fill {
+  font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(150, 150, 150, 0.3);
+  border-radius: 4px;
+}
+
+/* =========================================================================
+   LUXURY LANDING PAGE UTILITIES & FONTS
+   ========================================================================= */
+.font-serif-display {
+  font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
+}
+
+.luxury-card {
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid rgba(180, 83, 9, 0.12);
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.05);
+}
+
+.dark .luxury-card {
+  background: rgba(15, 23, 42, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.4);
+}
+
+.luxury-card-dark {
+  background: #020617;
+  border: 1px solid rgba(245, 158, 11, 0.3);
+  box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.7);
+}
+
+.gold-shimmer-text {
+  background: linear-gradient(135deg, #d97706 0%, #b45309 50%, #92400e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.dark .gold-shimmer-text {
+  background: linear-gradient(135deg, #fde68a 0%, #f59e0b 50%, #d97706 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* =========================================================================
+   SAMBHAV PASTEL THEME & HERO ANIMATION UTILITIES
+   ========================================================================= */
+.font-headline {
+  font-family: 'Atkinson Hyperlegible Next', 'Inter', sans-serif;
+}
+
+.font-body-lg {
+  font-family: 'Inter', sans-serif;
+}
+
+.font-body-md {
+  font-family: 'Inter', sans-serif;
+}
+
+.hero-bg {
+  background-image: url('/hero-bg.png');
+  background-size: cover;
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-color: #E2E0DC;
+}
+
+.page-bg {
+  background: linear-gradient(135deg, #DCD9D4 0%, #EAE7E2 100%);
+  min-height: 100vh;
+}
+
+.card-shadow {
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.05);
+}
+
+.soft-shadow {
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.08);
+}
+
+/* Fluid Hardware-Accelerated Animations */
+.fade-up {
+  opacity: 1;
+  transform: none;
+}
+
+.pulse-btn {
+  will-change: box-shadow;
+  animation: pulseButton 2.5s infinite;
+}
+
+@keyframes pulseButton {
+  0% { box-shadow: 0 0 0 0 rgba(64, 70, 168, 0.4); }
+  70% { box-shadow: 0 0 0 8px rgba(64, 70, 168, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(64, 70, 168, 0); }
+}
+
+/* Flow animation for How It Works */
+.flow-arrow {
+  position: relative;
+  overflow: hidden;
+}
+
+.flow-arrow::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(64, 70, 168, 0.25), transparent);
+  animation: flow 3s infinite;
+}
+
+@keyframes flow {
+  0% { left: -100%; }
+  100% { left: 200%; }
+}
+
