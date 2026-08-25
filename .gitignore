@@ -1,53 +1,40 @@
-# Python virtual environments
-venv/
-venv310/
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
-# Python cache
-__pycache__/
-*.pyc
-*.pyo
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
 
-# Dataset and processed data
-dataset/
-processed_data/
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
 
-# Environment/secrets
-.env
-.env.*
-!.env.example
-
-# Node
-node_modules/
-
-# Build files
-dist/
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
 build/
+!**/src/main/**/build/
+!**/src/test/**/build/
 
-# IDE
+### VS Code ###
 .vscode/
-.idea/
 
-# OS
-.DS_Store
-Thumbs.db
-
-# Temporary files
-*.tmp
-*.temp
-
-# Video files
-*.mp4
-*.webm
-*.avi
-*.mov
-
-# Logs
-*.log
-
-# Generated history
-history.json
-
-# SQLite database
-*.db
-*.sqlite
-*.sqlite3
+# Local Environment Variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
