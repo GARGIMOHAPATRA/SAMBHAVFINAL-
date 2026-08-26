@@ -88,7 +88,7 @@ The platform is designed to work with standard webcams, microphones, and commodi
 ## System Architecture
 
 <p align="center">
-  <img src="assets_jpg/sambhav-architecture.jpg" alt="Sambhav system architecture" width="940" />
+  <img src="sambhav_pics/sambhav arch.jpeg" alt="Sambhav system architecture" width="940" />
 </p>
 
 Sambhav is organized into a frontend layer, backend services, data services, AI/ML services, real-time communication, and external speech/avatar/cloud integrations.
@@ -156,7 +156,7 @@ Text and speech output
 The first model accepts speech or text, prepares the input using speech recognition and NLP, converts the result into ISL glosses, and maps the gloss sequence to avatar movements. The objective is to provide a visual sign-language response that can be understood by an ISL user.
 
 <p align="center">
-  <img src="assets_jpg/model-speech-to-isl.jpg" alt="Speech and text to ISL model pipeline" width="650" />
+  <img src="sambhav_pics/speech to isl.jpeg" alt="Speech and text to ISL model pipeline" width="650" />
 </p>
 
 ### Model 2: ISL to Speech/Text
@@ -172,7 +172,7 @@ Each frame contains:
 The model uses a 60-frame sequence, represented as **60 × 126**, and predicts one of the supported ISL classes with a confidence score.
 
 <p align="center">
-  <img src="assets_jpg/model-isl-to-speech.jpg" alt="ISL to speech and text model pipeline" width="650" />
+  <img src="sambhav_pics/isl to speech.jpeg" alt="ISL to speech and text model pipeline" width="650" />
 </p>
 
 ## Tech Stack
@@ -182,7 +182,7 @@ All technology-stack visuals below are **local images extracted and cropped from
 ### Frontend
 
 <p align="center">
-  <img src="assets_jpg/tech-frontend.jpg" alt="Frontend technologies: React 19, TypeScript, Vite 8, Tailwind CSS, HTML5/CSS3, and JavaScript" width="620" />
+  <img src="sambhav_pics/frontend.jpeg" alt="Frontend technologies: React 19, TypeScript, Vite 8, Tailwind CSS, HTML5/CSS3, and JavaScript" width="620" />
 </p>
 
 The frontend uses **React 19, TypeScript, Vite 8, Tailwind CSS, HTML5, CSS3, and JavaScript** to provide a responsive web interface for communication, translation, profiles, history, and accessible content.
@@ -190,7 +190,7 @@ The frontend uses **React 19, TypeScript, Vite 8, Tailwind CSS, HTML5, CSS3, and
 ### Backend
 
 <p align="center">
-  <img src="assets_jpg/tech-backend.jpg" alt="Backend technologies: Python, FastAPI, Uvicorn, Node.js, Java, Spring Boot, and Spring Security" width="620" />
+  <img src="sambhav_pics/backend.jpeg" alt="Backend technologies: Python, FastAPI, Uvicorn, Node.js, Java, Spring Boot, and Spring Security" width="620" />
 </p>
 
 The backend layer combines **Python 3.10, FastAPI, Uvicorn, Node.js, Java 21, Spring Boot 3.4, and Spring Security** for API routing, service orchestration, authentication, and model integration.
@@ -198,7 +198,7 @@ The backend layer combines **Python 3.10, FastAPI, Uvicorn, Node.js, Java 21, Sp
 ### AI and Machine Learning
 
 <p align="center">
-  <img src="assets_jpg/tech-ai-ml.jpg" alt="AI and machine-learning technologies used by Sambhav" width="620" />
+  <img src="sambhav_pics/ai ml.jpeg" alt="AI and machine-learning technologies used by Sambhav" width="620" />
 </p>
 
 The AI/ML layer uses **TensorFlow 2.20, MediaPipe, OpenCV, BiLSTM/LSTM models, NLTK, PyAudio, speech recognition, Web Speech API, and gTTS**.
@@ -206,7 +206,7 @@ The AI/ML layer uses **TensorFlow 2.20, MediaPipe, OpenCV, BiLSTM/LSTM models, N
 ### Data and Models
 
 <p align="center">
-  <img src="assets_jpg/tech-data-models.jpg" alt="Sambhav data and model technologies" width="620" />
+  <img src="sambhav_pics/data and models.jpeg" alt="Sambhav data and model technologies" width="620" />
 </p>
 
 Sambhav uses MediaPipe landmarks, JSON data, sequential landmark representations, TensorFlow/Keras models, and PostgreSQL-backed application data.
@@ -214,13 +214,13 @@ Sambhav uses MediaPipe landmarks, JSON data, sequential landmark representations
 ### Communication APIs, Speech, Cloud, and Database
 
 <p align="center">
-  <img src="assets_jpg/tech-communication-apis.jpg" alt="Sambhav communication and API technologies" width="920" />
+  <img src="sambhav_pics/communication and apis.jpeg" alt="Sambhav communication and API technologies" width="920" />
 </p>
 
 <p align="center">
-  <img src="assets_jpg/tech-speech.jpg" alt="Sambhav speech technologies" width="280" />
-  <img src="assets_jpg/tech-cloud-devops.jpg" alt="Sambhav cloud and DevOps technologies" width="340" />
-  <img src="assets_jpg/tech-database.jpg" alt="Sambhav database technology" width="250" />
+  <img src="sambhav_pics/speech.jpeg" alt="Sambhav speech technologies" width="280" />
+  <img src="sambhav_pics/cloud and devops.jpeg" alt="Sambhav cloud and DevOps technologies" width="340" />
+  <img src="sambhav_pics/database.jpeg" alt="Sambhav database technology" width="250" />
 </p>
 
 The communication layer uses **REST APIs, WebSockets, LiveKit, WebRTC, speech recognition, Google speech services, Docker, Git/GitHub, and PostgreSQL**.
@@ -249,7 +249,7 @@ The following values are reported in the Sambhav project deck. They describe the
 | Validation accuracy | **77.78%** |
 
 <p align="center">
-  <img src="assets_jpg/metrics-speech-to-isl.jpg" alt="Speech to ISL accuracy and loss metrics" width="720" />
+  <img src="sambhav_pics/metrices speech to isl.jpeg" alt="Speech to ISL accuracy and loss metrics" width="720" />
 </p>
 
 ### ISL → Speech/Text Metrics
@@ -261,7 +261,7 @@ The following values are reported in the Sambhav project deck. They describe the
 | Validation accuracy | **71.60%** |
 
 <p align="center">
-  <img src="assets_jpg/metrics-isl-to-speech.jpg" alt="ISL to speech and text accuracy and loss metrics" width="720" />
+  <img src="sambhav_pics/metrices isl to speech.jpeg" alt="ISL to speech and text accuracy and loss metrics" width="720" />
 </p>
 
 ## Real-Time Communication and News Reading
@@ -437,7 +437,7 @@ cd ../backend-java
 - [Docker](https://www.docker.com/)
 
 <p align="center">
-  <img src="assets_jpg/comparison-table.jpg" alt="Sambhav feature comparison with existing systems" width="900" />
+  <img src="sambhav_pics/comparison table.jpeg" alt="Sambhav feature comparison with existing systems" width="900" />
 </p>
 
 ## License
